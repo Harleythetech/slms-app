@@ -1,0 +1,100 @@
+{
+  "expo": {
+    "name": "slms-app",
+    "slug": "slms-app",
+    "version": "1.0.0",
+    "scheme": "slms-app",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/GoogleSansFlex_9pt-Thin.ttf",
+            "./assets/fonts/GoogleSansFlex_9pt-ExtraLight.ttf",
+            "./assets/fonts/GoogleSansFlex_9pt-Light.ttf",
+            "./assets/fonts/GoogleSansFlex_9pt-Regular.ttf",
+            "./assets/fonts/GoogleSansFlex_9pt-Medium.ttf",
+            "./assets/fonts/GoogleSansFlex_9pt-SemiBold.ttf",
+            "./assets/fonts/GoogleSansFlex_9pt-Bold.ttf",
+            "./assets/fonts/GoogleSansFlex_9pt-ExtraBold.ttf",
+            "./assets/fonts/GoogleSansFlex_9pt-Black.ttf",
+            "./assets/fonts/GoogleSansFlex_24pt-Thin.ttf",
+            "./assets/fonts/GoogleSansFlex_24pt-ExtraLight.ttf",
+            "./assets/fonts/GoogleSansFlex_24pt-Light.ttf",
+            "./assets/fonts/GoogleSansFlex_24pt-Regular.ttf",
+            "./assets/fonts/GoogleSansFlex_24pt-Medium.ttf",
+            "./assets/fonts/GoogleSansFlex_24pt-SemiBold.ttf",
+            "./assets/fonts/GoogleSansFlex_24pt-Bold.ttf",
+            "./assets/fonts/GoogleSansFlex_24pt-ExtraBold.ttf",
+            "./assets/fonts/GoogleSansFlex_24pt-Black.ttf",
+            "./assets/fonts/GoogleSansFlex_36pt-Thin.ttf",
+            "./assets/fonts/GoogleSansFlex_36pt-ExtraLight.ttf",
+            "./assets/fonts/GoogleSansFlex_36pt-Light.ttf",
+            "./assets/fonts/GoogleSansFlex_36pt-Regular.ttf",
+            "./assets/fonts/GoogleSansFlex_36pt-Medium.ttf",
+            "./assets/fonts/GoogleSansFlex_36pt-SemiBold.ttf",
+            "./assets/fonts/GoogleSansFlex_36pt-Bold.ttf",
+            "./assets/fonts/GoogleSansFlex_36pt-ExtraBold.ttf",
+            "./assets/fonts/GoogleSansFlex_36pt-Black.ttf",
+            "./assets/fonts/GoogleSansFlex_72pt-Thin.ttf",
+            "./assets/fonts/GoogleSansFlex_72pt-ExtraLight.ttf",
+            "./assets/fonts/GoogleSansFlex_72pt-Light.ttf",
+            "./assets/fonts/GoogleSansFlex_72pt-Regular.ttf",
+            "./assets/fonts/GoogleSansFlex_72pt-Medium.ttf",
+            "./assets/fonts/GoogleSansFlex_72pt-SemiBold.ttf",
+            "./assets/fonts/GoogleSansFlex_72pt-Bold.ttf",
+            "./assets/fonts/GoogleSansFlex_72pt-ExtraBold.ttf",
+            "./assets/fonts/GoogleSansFlex_72pt-Black.ttf",
+            "./assets/fonts/GoogleSansFlex_120pt-Thin.ttf",
+            "./assets/fonts/GoogleSansFlex_120pt-ExtraLight.ttf",
+            "./assets/fonts/GoogleSansFlex_120pt-Light.ttf",
+            "./assets/fonts/GoogleSansFlex_120pt-Regular.ttf",
+            "./assets/fonts/GoogleSansFlex_120pt-Medium.ttf",
+            "./assets/fonts/GoogleSansFlex_120pt-SemiBold.ttf",
+            "./assets/fonts/GoogleSansFlex_120pt-Bold.ttf",
+            "./assets/fonts/GoogleSansFlex_120pt-ExtraBold.ttf",
+            "./assets/fonts/GoogleSansFlex_120pt-Black.ttf"
+          ]
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "softwareKeyboardLayoutMode": "pan"
+    }
+  }
+}

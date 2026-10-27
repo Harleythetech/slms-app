@@ -1,0 +1,237 @@
+:root {
+  --css-interop-darkMode: class dark;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'GoogleSansFlex_9pt-Thin';
+  src: url('/assets/fonts/GoogleSansFlex_9pt-Thin.ttf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_9pt-ExtraLight';
+  src: url('/assets/fonts/GoogleSansFlex_9pt-ExtraLight.ttf');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_9pt-Light';
+  src: url('/assets/fonts/GoogleSansFlex_9pt-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_9pt-Regular';
+  src: url('/assets/fonts/GoogleSansFlex_9pt-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_9pt-Medium';
+  src: url('/assets/fonts/GoogleSansFlex_9pt-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_9pt-SemiBold';
+  src: url('/assets/fonts/GoogleSansFlex_9pt-SemiBold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_9pt-Bold';
+  src: url('/assets/fonts/GoogleSansFlex_9pt-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_9pt-ExtraBold';
+  src: url('/assets/fonts/GoogleSansFlex_9pt-ExtraBold.ttf');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_9pt-Black';
+  src: url('/assets/fonts/GoogleSansFlex_9pt-Black.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'GoogleSansFlex_24pt-Thin';
+  src: url('/assets/fonts/GoogleSansFlex_24pt-Thin.ttf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_24pt-ExtraLight';
+  src: url('/assets/fonts/GoogleSansFlex_24pt-ExtraLight.ttf');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_24pt-Light';
+  src: url('/assets/fonts/GoogleSansFlex_24pt-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_24pt-Regular';
+  src: url('/assets/fonts/GoogleSansFlex_24pt-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_24pt-Medium';
+  src: url('/assets/fonts/GoogleSansFlex_24pt-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_24pt-SemiBold';
+  src: url('/assets/fonts/GoogleSansFlex_24pt-SemiBold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_24pt-Bold';
+  src: url('/assets/fonts/GoogleSansFlex_24pt-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_24pt-ExtraBold';
+  src: url('/assets/fonts/GoogleSansFlex_24pt-ExtraBold.ttf');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_24pt-Black';
+  src: url('/assets/fonts/GoogleSansFlex_24pt-Black.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'GoogleSansFlex_36pt-Thin';
+  src: url('/assets/fonts/GoogleSansFlex_36pt-Thin.ttf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_36pt-ExtraLight';
+  src: url('/assets/fonts/GoogleSansFlex_36pt-ExtraLight.ttf');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_36pt-Light';
+  src: url('/assets/fonts/GoogleSansFlex_36pt-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_36pt-Regular';
+  src: url('/assets/fonts/GoogleSansFlex_36pt-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_36pt-Medium';
+  src: url('/assets/fonts/GoogleSansFlex_36pt-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_36pt-SemiBold';
+  src: url('/assets/fonts/GoogleSansFlex_36pt-SemiBold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_36pt-Bold';
+  src: url('/assets/fonts/GoogleSansFlex_36pt-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_36pt-ExtraBold';
+  src: url('/assets/fonts/GoogleSansFlex_36pt-ExtraBold.ttf');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_36pt-Black';
+  src: url('/assets/fonts/GoogleSansFlex_36pt-Black.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'GoogleSansFlex_72pt-Thin';
+  src: url('/assets/fonts/GoogleSansFlex_72pt-Thin.ttf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_72pt-ExtraLight';
+  src: url('/assets/fonts/GoogleSansFlex_72pt-ExtraLight.ttf');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_72pt-Light';
+  src: url('/assets/fonts/GoogleSansFlex_72pt-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_72pt-Regular';
+  src: url('/assets/fonts/GoogleSansFlex_72pt-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_72pt-Medium';
+  src: url('/assets/fonts/GoogleSansFlex_72pt-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_72pt-SemiBold';
+  src: url('/assets/fonts/GoogleSansFlex_72pt-SemiBold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_72pt-Bold';
+  src: url('/assets/fonts/GoogleSansFlex_72pt-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_72pt-ExtraBold';
+  src: url('/assets/fonts/GoogleSansFlex_72pt-ExtraBold.ttf');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_72pt-Black';
+  src: url('/assets/fonts/GoogleSansFlex_72pt-Black.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'GoogleSansFlex_120pt-Thin';
+  src: url('/assets/fonts/GoogleSansFlex_120pt-Thin.ttf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_120pt-ExtraLight';
+  src: url('/assets/fonts/GoogleSansFlex_120pt-ExtraLight.ttf');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_120pt-Light';
+  src: url('/assets/fonts/GoogleSansFlex_120pt-Light.ttf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_120pt-Regular';
+  src: url('/assets/fonts/GoogleSansFlex_120pt-Regular.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_120pt-Medium';
+  src: url('/assets/fonts/GoogleSansFlex_120pt-Medium.ttf');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_120pt-SemiBold';
+  src: url('/assets/fonts/GoogleSansFlex_120pt-SemiBold.ttf');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_120pt-Bold';
+  src: url('/assets/fonts/GoogleSansFlex_120pt-Bold.ttf');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_120pt-ExtraBold';
+  src: url('/assets/fonts/GoogleSansFlex_120pt-ExtraBold.ttf');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'GoogleSansFlex_120pt-Black';
+  src: url('/assets/fonts/GoogleSansFlex_120pt-Black.ttf');
+  font-weight: 900;
+}
